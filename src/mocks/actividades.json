@@ -1,0 +1,88 @@
+{
+    "actividades": [
+        {
+            "id": "1",
+            "titulo": "Hora de estar sobre la pancita",
+            "descripcion": "Acueste a su bebé bocabajo sobre una cobija en la alfombra, con la cabeza hacia un lado. Póngase en el piso a un lado de ella. Haga que pase el mismo lapso de tiempo con la cabeza hacia la derecha y después hacia la izquierda. Cada día aumente el tiempo que está boca abajo con su bebé hasta que ella pueda alzar la cabeza y extender sus brazos para levantar el tronco, facilitando que empiece a rodar y a gatear. No le deje recostar la cara sobre el piso, lo cual podría sofocarla.",
+            "edad": "1 a 4 meses",
+            "area": ["Motora gruesa"]
+        },
+        {
+            "id": "2",
+            "titulo": "Por todo el cuerpo",
+            "descripcion": "Acueste a su bebé boca arriba y tóquele los brazos y las piernas en sitios distintos. Haga pequeños sonidos como “cuchi-cuchi” cada vez que lo toque. Puede que su bebé sonría y que le mire la mano, anticipando que lo vuelva a tocar. Cada vez que haga un sonido, también puede nombrar la parte del cuerpo que está tocando.",
+            "edad": "1 a 4 meses",
+            "area": ["Comunicación", "Resolución de problemas"]
+        },
+        {
+            "id": "3",
+            "titulo": "Juego de la imitación",
+            "descripcion": "Sostenga a su bebé de manera que pueda verle la cara de cerca. Hágale caras divertidas, sonríale, saque la lengua y bostece. Espere unos segundos y observe si su bebé intenta imitarlo/la.",
+            "edad": "1 a 4 meses",
+            "area": ["Socio-individual"]
+        },
+        {
+            "id": "4",
+            "titulo": "Caminata por la naturaleza",
+            "descripcion": "Cuando haga buen tiempo, saque a su bebé a caminar por el parque o por la vecindad. Platíquele sobre todo lo que vea. Aunque no pueda entenderlo todo, a su bebé le encantará estar afuera y escuchar el sonido de su voz.",
+            "edad": "1 a 4 meses",
+            "area": ["Socio-individual", "Comunicación"]
+        },
+        {
+            "id": "5",
+            "titulo": "¿Dónde está el nene?",
+            "descripcion": "Juegue a las escondidas (picabú) con las manos, un paño, o un pañal. Tápese la cara con el paño, y después deje que su bebé se esconda detrás de éste. Incentive a su bebé a jugar, pero si no puede llevarse el paño a la cara, retíreselo. Tomen turnos para esconderse.",
+            "edad": "4 a 8 meses",
+            "area": ["Socio-individual"]
+        },
+        {
+            "id": "6",
+            "titulo": "Tocándolo todo",
+            "descripcion": "Su bebé empezará a usar su dedo índice para tocar objetos con el dedo. Deje que su bebé toque sus juguetes, tales como un teléfono de plástico, con el dedo índice. También deje que le toque la cara y nómbrele la parte que le toca.",
+            "edad": "4 a 8 meses",
+            "area": ["Motora fina"]
+        },
+        {
+            "id": "7",
+            "titulo": "Alcanza el juguete",
+            "descripcion": "Estando su bebé acostado sobre la espalda, coloque un juguete de manera que pueda verlo, pero no tocarlo, o mueva un juguete dentro del campo visual de su bebé. Motívelo a rodar para llegar al juguete. ",
+            "edad": "4 a 8 meses",
+            "area": ["Motora gruesa", "Resolución de problemas"]
+        },
+        {
+            "id": "8",
+            "titulo": "Jalando papel",
+            "descripcion": "Llene una caja de pañuelos de papel con tiras de papel. Su bebé disfrutará mucho sacándolas de la caja. (No utilice papel de periódico ni revistas a colores ya que la tinta puede ser tóxica. No use nunca bolsas ni envoltorios de plástico). ",
+            "edad": "4 a 8 meses",
+            "area": ["Motora fina"]
+        },
+        {
+            "id": "9",
+            "titulo": "A hacer ruido",
+            "descripcion": "En esta etapa, a los bebés les sigue gustando hacer ruido. Haga sonajas atando con una cuerda los anillos que se usan en las tapas de los frascos para hacer conservas. O llene pequeñas botellas como frascos de medicamento (con tapas a prueba de niños) con objetos que hagan diferentes sonidos como bolitas (canicas), arroz, sal, etc. Asegúrese de apretar firmemente las tapas.",
+            "edad": "8 a 12 meses",
+            "area": ["Socio-individual"]
+        },
+        {
+            "id": "10",
+            "titulo": "Pista de obstáculos",
+            "descripcion": "Haga una especie de carrera de obstáculos usando cajas o muebles de manera que su bebé pueda meterse, subirse, pasar por encima, por debajo o por en medio de ellos. Una caja grande puede ser un sitio magnífico para sentarse y jugar.",
+            "edad": "8 a 12 meses",
+            "area": ["Motora gruesa"]
+        },
+        {
+            "id": "11",
+            "titulo": "Adentro y afuera",
+            "descripcion": "Dele a su bebé recipientes con tapas y con diferentes compartimentos que tengan cubos u otros juguetes pequeños. Deje que su bebé quite las tapas y que vuelque o saque los juguetes. Después, enséñele como volver a poner las cosas en su sitio. Este juego le enseñará a la bebé a poner o a acomodar objetos en el lugar donde ella desea. ",
+            "edad": "8 a 12 meses",
+            "area": ["Resolución de problemas"]
+        },
+        {
+            "id": "12",
+            "titulo": "Hacer planes en voz alta",
+            "descripcion": "Establezca una rutina en casa para comer, dormir, cambiar los pañales y jugar. Hable con su bebé sobre la rutina y dígale qué actividad harán a continuación. Esto le ayudará a sentirse segura. ",
+            "edad": "8 a 12 meses",
+            "area": ["Comunicación", "Socio-individual"]
+        }
+    ]
+}
