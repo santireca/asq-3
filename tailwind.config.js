@@ -7,6 +7,11 @@ module.exports = {
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
+    screens: {
+      'sm': {'min': '320px', 'max': '425px'},
+      'sm-m': {'min': '426px', 'max': '767px'},
+      'laptop': {'min': '769px', 'max': '1120px'}
+    },
     extend: {
       fontFamily: {
         burtons: "burtons",

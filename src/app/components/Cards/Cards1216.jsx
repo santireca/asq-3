@@ -5,18 +5,18 @@ import { useState } from "react";
 
 export default function Cards1216 (){
     const [mostrarCards, setMostrarCards] = useState(false);
-    const ochoDoceMeses = actividades.actividades.filter((actividad) => actividad.edad === "8 a 12 meses");
+    const doceDieciseisMeses = actividades.actividades.filter((actividad) => actividad.edad === "12 a 16 meses");
     return (
         <div className=" flex flex-col items-center ">
             <button 
-                className=" w-[540px] text-center text-4xl font-bold py-3 text-white dark:text-fuchsia-600 cursor-pointer hover:scale-105 transition duration-200 bg-orange-950 bg-opacity-70 shadow-lg backdrop-filter backdrop-blur-md border-fuchsia-800 border-opacity-18 p-5 rounded-md"
+                className=" w-[560px] text-center text-4xl font-bold py-3 text-white dark:text-fuchsia-600 cursor-pointer hover:scale-105 transition duration-200 bg-orange-950 bg-opacity-70 shadow-lg backdrop-filter backdrop-blur-md border-fuchsia-800 border-opacity-18 p-5 rounded-md sm:w-[300px] sm:text-lg"
                 onClick={() => setMostrarCards(!mostrarCards)}
                 >Entre 12 y 16 meses de edad </button>
             {
                 mostrarCards && (
                     <div className=" flex flex-wrap justify-center gap-10 mb-10 mt-10">
                         
-                {ochoDoceMeses.map((actividad) => (
+                {doceDieciseisMeses.map((actividad) => (
                     <div key={actividad.id} className=" w-[500px] h-[200px] flex flex-col justify-between bg-white bg-opacity-70 shadow-lg backdrop-filter backdrop-blur-md border border-opacity-18 p-5 rounded-md cursor-pointer hover:scale-105 transition duration-300 ">
                                 
                         <div>

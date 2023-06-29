@@ -5,7 +5,7 @@ import { useState } from "react";
 
 export default function Cards2430 (){
     const [mostrarCards, setMostrarCards] = useState(false);
-    const ochoDoceMeses = actividades.actividades.filter((actividad) => actividad.edad === "8 a 12 meses");
+    const ochoDoceMeses = actividades.actividades.filter((actividad) => actividad.edad === "24 a 30 meses");
     return (
         <div className=" flex flex-col items-center ">
             <button 
