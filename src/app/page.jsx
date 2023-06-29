@@ -16,7 +16,7 @@ export default function Home() {
                   <div className=" flex flex-col justify-center items-center">
                     <div data-aos="fade-down" data-aos-duration="700" className="flex flex-col items-center justify-center mb-10 laptop:mb-6 sm-m:mb-5 sm:mb-4">
                       <h1 className="text-5xl font-bold py-2 text-blue-800 dark:text-indigo-600 laptop:text-4xl sm-m:text-3xl sm:text-2xl">Actividades ASQ-3</h1>
-                    </div>
+                    </div> 
 
                     <div className=" flex items-center justify-center mb-10 gap-14 sm:gap-0 sm-m:gap-0">
 
@@ -54,6 +54,7 @@ export default function Home() {
                     </div>
 
                   </div>
+                  
                 </section>
       </div>
   )
