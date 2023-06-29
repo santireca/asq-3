@@ -10,7 +10,7 @@ export default function CardsUnoCuatroMeses (){
     return (
         <div className=" flex flex-col items-center ">
             <button 
-                className=" w-[540px] text-center text-4xl font-bold py-3 text-white dark:text-fuchsia-600  cursor-pointer hover:scale-105 transition duration-200 bg-orange-800 bg-opacity-70 shadow-lg backdrop-filter backdrop-blur-md border-fuchsia-800 border-opacity-18 p-5 rounded-md"
+                className=" w-[540px] text-center text-4xl font-bold py-3 text-white dark:text-fuchsia-600  cursor-pointer hover:scale-105 transition duration-200 bg-orange-800 bg-opacity-70 shadow-lg backdrop-filter backdrop-blur-md border-fuchsia-800 border-opacity-18 p-5 rounded-md sm:w-[300px] sm:text-lg sm-m:w-[400px] sm-m:text-2xl"
                 onClick={() => setMostrarCards(!mostrarCards)}
                 >Entre 1 y 4 meses de edad </button>
             {
