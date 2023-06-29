@@ -10,7 +10,7 @@ module.exports = {
     screens: {
       'sm': {'min': '0px', 'max': '425px'},
       'sm-m': {'min': '426px', 'max': '767px'},
-      'laptop': {'min': '769px', 'max': '1120px'}
+      'laptop': {'min': '769px', 'max': '1440px'}
     },
     extend: {
       fontFamily: {

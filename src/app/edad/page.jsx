@@ -12,7 +12,7 @@ export default function EdadPage (){
                     <Link href={'/unAnio'}>
                         <div className=" flex flex-col items-center bg-white bg-opacity-70 shadow-lg backdrop-filter backdrop-blur-md border border-opacity-18 p-5 rounded-md w-[300px] h-[485px] cursor-pointer hover:scale-105 transition duration-300 laptop:w-[250px] laptop:h-[382px] sm-m:w-[250px] sm-m:h-[382px] sm:w-[250px] sm:h-[382px]">
                             <h2 className=" text-3xl text-indigo-800 font-semibold mb-10 laptop:mb-5 sm-m:mb-5 sm:mb-5">0 a 1 año</h2>
-                            <img src="https://res.cloudinary.com/dreso9ye9/image/upload/v1687579934/chupete_ikqayw.png" alt="" className=" w-64 mb-10 grayscale hover:grayscale-0 laptop:w-[214px] laptop:mb-5 sm-m:mb-5 sm:mb-5"/>
+                            <img src="https://res.cloudinary.com/dreso9ye9/image/upload/v1687579934/chupete_ikqayw.png" alt="" className=" w-64 mb-10 grayscale hover:grayscale-0 laptop:w-[214px] laptop:mb-5 sm-m:mb-5 sm-m:grayscale-0 sm:mb-5 sm:grayscale-0"/>
                             <p className=" text-indigo-500 text-center">"Creciendo y aprendiendo cada día"</p>
                         </div>
                     </Link>
@@ -20,7 +20,7 @@ export default function EdadPage (){
                     <Link href={'/dosAnios'}>
                         <div className=" flex flex-col items-center bg-white bg-opacity-70 shadow-lg backdrop-filter backdrop-blur-md border border-opacity-18 p-5 rounded-md w-[300px] h-[485px] cursor-pointer hover:scale-105 transition duration-300 laptop:w-[250px] laptop:h-[382px] sm-m:w-[250px] sm-m:h-[382px] sm:w-[250px] sm:h-[382px]">
                             <h2 className=" text-3xl text-indigo-800 font-semibold mb-10 laptop:mb-5 sm-m:mb-5 sm:mb-5">1 a 2 años</h2>
-                            <img src="https://res.cloudinary.com/dreso9ye9/image/upload/v1687579583/descargar_vlxzqn.png" alt="" className=" w-64 mb-10 grayscale hover:grayscale-0 laptop:w-[214px] laptop:mb-5 sm-m:mb-5 sm:mb-5"/>
+                            <img src="https://res.cloudinary.com/dreso9ye9/image/upload/v1687579583/descargar_vlxzqn.png" alt="" className=" w-64 mb-10 grayscale hover:grayscale-0 laptop:w-[214px] laptop:mb-5 sm-m:mb-5 sm-m:grayscale-0 sm:mb-5 sm:grayscale-0"/>
                             <p className=" text-indigo-500 text-center">"Llenando el mundo de risas y travesuras"</p>
                         </div>
                     </Link>
@@ -28,7 +28,7 @@ export default function EdadPage (){
                     <Link href={'/tresAnios'}>
                         <div className=" flex flex-col items-center bg-white bg-opacity-70 shadow-lg backdrop-filter backdrop-blur-md border border-opacity-18 p-5 rounded-md w-[300px] h-[485px] cursor-pointer hover:scale-105 transition duration-300 laptop:w-[250px] laptop:h-[382px] sm-m:w-[250px] sm-m:h-[382px] sm:w-[250px] sm:h-[382px]">
                             <h2 className=" text-3xl text-indigo-800 font-semibold mb-10 laptop:mb-5 sm-m:mb-5 sm:mb-5">2 a 3 años</h2>
-                            <img src="https://res.cloudinary.com/dreso9ye9/image/upload/v1687579899/triciclo_mgqzpm.png" alt="" className=" w-64 mb-10 grayscale hover:grayscale-0 laptop:w-[214px] laptop:mb-5 sm-m:mb-5 sm:mb-5"/>
+                            <img src="https://res.cloudinary.com/dreso9ye9/image/upload/v1687579899/triciclo_mgqzpm.png" alt="" className=" w-64 mb-10 grayscale hover:grayscale-0 laptop:w-[214px] laptop:mb-5 sm-m:mb-5 sm-m:grayscale-0 sm:mb-5 sm:grayscale-0"/>
                             <p className=" text-indigo-500 text-center">"Pequeño explorador en acción"</p>
                         </div>
                     </Link>
@@ -36,7 +36,7 @@ export default function EdadPage (){
                     <Link href={'/cuatroAnios'}>
                         <div className=" flex flex-col items-center bg-white bg-opacity-70 shadow-lg backdrop-filter backdrop-blur-md border border-opacity-18 p-5 rounded-md w-[300px] h-[485px] cursor-pointer hover:scale-105 transition duration-300 laptop:w-[250px] laptop:h-[382px] sm-m:w-[250px] sm-m:h-[382px] sm:w-[250px] sm:h-[382px]">
                             <h2 className=" text-3xl text-indigo-800 font-semibold mb-10 laptop:mb-5 sm-m:mb-5 sm:mb-5">3 a 4 años</h2>
-                            <img src="https://res.cloudinary.com/dreso9ye9/image/upload/v1687580228/paleta_colores_geyfuq.png" alt="" className=" w-64 mb-10 grayscale hover:grayscale-0 laptop:w-[214px] laptop:mb-5 sm-m:mb-5 sm:mb-5"/>
+                            <img src="https://res.cloudinary.com/dreso9ye9/image/upload/v1687580228/paleta_colores_geyfuq.png" alt="" className=" w-64 mb-10 grayscale hover:grayscale-0 laptop:w-[214px] laptop:mb-5 sm-m:mb-5 sm-m:grayscale-0 sm:mb-5 sm:grayscale-0"/>
                             <p className=" text-indigo-500 text-center">"Curiosidad sin límites, siempre descubriendo algo nuevo"</p>
                         </div>
                     </Link>
@@ -44,7 +44,7 @@ export default function EdadPage (){
                     <Link href={'/cincoAnios'}>
                         <div className=" flex flex-col items-center bg-white bg-opacity-70 shadow-lg backdrop-filter backdrop-blur-md border border-opacity-18 p-5 rounded-md w-[300px] h-[485px] cursor-pointer hover:scale-105 transition duration-300 laptop:w-[250px] laptop:h-[382px] sm-m:w-[250px] sm-m:h-[382px] sm:w-[250px] sm:h-[382px]">
                             <h2 className=" text-3xl text-indigo-800 font-semibold mb-10 laptop:mb-5 sm-m:mb-5 sm:mb-5">4 a 5 años</h2>
-                            <img src="https://res.cloudinary.com/dreso9ye9/image/upload/v1687580176/libros_j6xodu.png" alt="" className=" w-64 mb-10 grayscale hover:grayscale-0 laptop:w-[214px] laptop:mb-5 sm-m:mb-5 sm:mb-5"/>
+                            <img src="https://res.cloudinary.com/dreso9ye9/image/upload/v1687580176/libros_j6xodu.png" alt="" className=" w-64 mb-10 grayscale hover:grayscale-0 laptop:w-[214px] laptop:mb-5 sm-m:mb-5 sm-m:grayscale-0 sm:mb-5 sm:grayscale-0"/>
                             <p className=" text-indigo-500 text-center">"¡Preparado/a para el mundo escolar!"</p>
                         </div>
                     </Link>
