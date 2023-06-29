@@ -1,7 +1,7 @@
 'use client'
 
 import { useState } from "react";
-import actividades from '../../mocks/actividades.json'
+import actividades from '../../mocks/unAnio.json'
 import Filters from "../components/Filters";
 
 export default function ActividadesPage (){
