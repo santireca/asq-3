@@ -11,7 +11,7 @@ export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
   return (
     <div className={darkMode ? "dark" : ""}>
-        <section class="flex my-auto items-center justify-center h-screen home-dark bg-fixed bg-gradient-to-t from-blue-200 to-blue-400 dark:bg-gradient-to-t dark:from-slate-900 dark:to-indigo-950 sm:py-28">
+        <section class="flex my-auto items-center justify-center min-h-screen home-dark bg-fixed bg-gradient-to-t from-blue-200 to-blue-400 dark:bg-gradient-to-t dark:from-slate-900 dark:to-indigo-950 sm:py-28">
                   
                   <div className=" flex flex-col justify-center items-center">
                     <div data-aos="fade-down" data-aos-duration="700" className="flex flex-col items-center justify-center mb-10 laptop:mb-6 sm-m:mb-5 sm:mb-4">
