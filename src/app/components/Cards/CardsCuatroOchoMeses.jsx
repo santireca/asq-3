@@ -1,6 +1,6 @@
 'use client'
 
-import actividades from '../../../mocks/actividades.json'
+import actividades from '../../../mocks/unAnio.json'
 import { useState } from "react";
 
 export default function CardsCuatroOchoMeses (){
