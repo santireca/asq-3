@@ -25,16 +25,9 @@ export default function CardsUnoCuatroMeses (){
                                     <div key={actividad.id} className=" w-[300px] h-[180px] flex flex-col items-center justify-between bg-white bg-opacity-70 shadow-lg backdrop-filter backdrop-blur-md border border-opacity-18 p-5 rounded-md  sm-m:min-w-[300px] sm:w-[300px] cursor-grab">
                                                 
                                         <div>
-                                            {/* <p className=" text-md text-orange-700 font-semibold ">{actividad.edad.toUpperCase()}</p> */}
                                             <h3 className=" text-orange-800 font-semibold text-2xl text-center">{actividad.titulo}</h3>
                                         </div>
                                         <Link href={'https://agesandstages.com/wp-content/uploads/2023/05/2-month_ASQ-3-Parent-Activities_Spanish.pdf'} target='_blank' className=" flex flex-col gap-2">
-                                            {/* <p className="text-md text-orange-700">Área de desarrollo</p>
-                                            <div className=" flex flex-wrap gap-2">
-                                                {actividad.area.map((area) => (
-                                                <p key={area} className="p-2 text-sm text-gray-100 bg-orange-700 shadow-md w-fit rounded-sm sm:text-xs">{area}</p>
-                                                ))}
-                                            </div> */}
                                             <button className="py-2 px-4 text-base text-gray-100 bg-orange-700 shadow-md w-fit rounded-md hover:bg-orange-800 hover:scale-105 transition duration-300">Ver actividad</button>
                                         </Link>
                                     </div>
