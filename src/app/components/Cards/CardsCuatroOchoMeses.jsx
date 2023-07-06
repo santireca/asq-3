@@ -15,10 +15,10 @@ export default function CardsCuatroOchoMeses (){
                 className=" w-[540px] text-center text-4xl font-bold py-3 text-white dark:text-fuchsia-600 cursor-pointer hover:scale-105 transition duration-200 bg-orange-800 bg-opacity-70 shadow-lg backdrop-filter backdrop-blur-md border-fuchsia-800 border-opacity-18 p-5 rounded-md sm:w-[300px] sm:text-lg sm-m:w-[400px] sm-m:text-2xl"
                 onClick={() => setMostrarCards(!mostrarCards)}
                 >Entre 4 y 8 meses de edad </button>
-                <motion.div className='w-[1800px] overflow-hidden flex flex-col items-center justify-center'>
+                <motion.div className='w-screen overflow-hidden flex flex-col items-center justify-center'>
                     {
                         mostrarCards && (
-                            <motion.div className=" flex justify-start items-center gap-5 mb-5 mt-10 sm:gap-5 h-[220px] cursor-grab" drag='x' dragConstraints={{right: 480.5, left: -480.5}}>
+                            <motion.div className=" flex justify-start items-center gap-5 mb-5 mt-10 sm:gap-5 h-[220px] cursor-grab" drag='x' dragConstraints={{right: 480.5, left: -480.5}} initial={{ x: 480.5 }}>
                                 
                                 {cuatroOchoMeses.map((actividad) => (
                                     <div key={actividad.id} className=" w-[300px] h-[180px] flex flex-col items-center justify-between bg-white bg-opacity-70 shadow-lg backdrop-filter backdrop-blur-md border border-opacity-18 p-5 rounded-md  sm-m:min-w-[300px] sm:w-[300px] cursor-grab ">
@@ -36,7 +36,7 @@ export default function CardsCuatroOchoMeses (){
                     }
                 </motion.div>
 
-                <motion.div className=' w-[1800px] overflow-hidden flex flex-col items-center justify-center'>
+                <motion.div className=' w-screen overflow-hidden flex flex-col items-center justify-center'>
                     
                     {
                         mostrarCards && (
@@ -44,7 +44,7 @@ export default function CardsCuatroOchoMeses (){
                             <div className='bg-white bg-opacity-70 shadow-lg backdrop-filter backdrop-blur-md border border-opacity-18 px-5 py-2 rounded-md'>
                                 <p className='text-xl text-orange-800 font-semibold'>Actividades extra</p>
                             </div>
-                            <motion.div className="  overflow-hidden flex justify-start items-center gap-5 mb-10 mt-10 sm:gap-5 h-[375px] cursor-grab px-10" drag='x' dragConstraints={{right: 3040, left: -3040}}>
+                            <motion.div className="  overflow-hidden flex justify-start items-center gap-5 mb-10 mt-10 sm:gap-5 h-[375px] cursor-grab px-10" drag='x' dragConstraints={{right: 3040, left: -3040}} initial={{ x: 3040 }}>
                                 
                                 {cuatroOchoMesesExtra.map((actividad) => (
                                     <div key={actividad.id} className=" w-[300px] h-[360px] flex flex-col justify-between bg-white bg-opacity-70 shadow-lg backdrop-filter backdrop-blur-md border border-opacity-18 p-5 rounded-md  hover:scale-105 transition duration-300 sm-m:min-w-[300px] sm:w-[300px] cursor-grab">
